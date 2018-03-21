@@ -1,0 +1,28 @@
+.border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table {
+    margin: 50px auto;
+    width: 1200px;
+}
+.col1 {
+    width: 10%;
+}
+.col {
+    width: 22.5%;
+}
+.col5 {
+    text-align: left;
+}
+.line {
+    text-align: center;
+}
+.line1 {
+    background-color: #22860b;
+    color: white;
+}
+.line2 {
+    color: #1f22dd;
+    border: 5px double black;
+}

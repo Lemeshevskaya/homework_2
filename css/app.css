@@ -2,6 +2,77 @@
     width: 1140px;
     margin: 0 auto;
 }
+/*header*/
+.head {
+   background: url('../images/Background.png') no-repeat center top / cover;
+    padding-bottom: 180px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    display: block;
+    background: url("../images/foliac-logo.png") no-repeat;
+    height: 100px;
+    width: 176px;
+    margin-top: 35px;
+    float: left;
+}
+.menu {
+    float: right;
+    margin-top: 78px;
+}
+.par {
+    display: block;
+    float: left;
+}
+.pmenu {
+    color: white;
+    text-decoration: none;
+    font-family: "Lato bold", sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    position: relative;
+}
+.item:after {
+    content: "/";
+    color: #58626a;
+    position: absolute;
+    margin-left: 50px;
+}
+.titelf {
+    font-family: "Big John";
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 155px;
+}
+.titels {
+    font-family: "Slim Joe";
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 26px;
+}
+.buttonhead {
+    background: transparent;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #48bf72;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 11px 20px;
+    display: block;
+}
 /*contact form*/
 .titel {
     font-family: "Big John" , sans-serif ;
@@ -89,4 +160,40 @@
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 3px;
+}
+/*footer*/
+.down {
+    background: #3c4955;
+    height: 200px;
+}
+.madein {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    float: left;
+    padding-top: 92px;
+}
+.cosialicon {
+    float: right;
+    padding-top: 72px;
+}
+.pic {
+    background: url("../images/social.png") no-repeat;
+    height: 65px;
+    width: 65px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.twitter {
+    background-position: 0 0;
+}
+.linkedin {
+    background-position: -87px 0;
+}
+.dribble {
+     background-position: -177px 0;
+}
+.behance {
+    background-position: -267px 0;
 }

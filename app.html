@@ -7,30 +7,72 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
-        <div class="container">
-                <h1 class="titel">Me contacter</h1>
-                <form class="contact_form" action="url" method="post">
-                    <div class ="line">
-                        <div class="icon">
-                            <img class="imguser" src="images/user.png" alt="user">
+        <header class="head">
+            <div class="container">
+                <div class="heading clearfix">
+                    <a class="logo" href="#" title="Home"></a>
+                    <nav class="menu">
+                        <ul>
+                            <li class="par">
+                                <a href="#" class="pmenu item">Accueil</a>
+                            </li>
+                            <li class="par">
+                                <a href="#" class="pmenu item">Portfolio</a>
+                            </li>
+                            <li class="par">
+                                <a href="#" class="pmenu item">About</a>
+                            </li>
+                            <li class="par">
+                                <a href="#" class="pmenu">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="titlehead">
+                    <h1 class="titelf">voici votre prochain portfolio</h1>
+                    <h2 class="titels">un template psd simple et gratuit</h2>
+                </div>
+                <button class="buttonhead">mes travaux</button>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                    <h3 class="titel">Me contacter</h3>
+                    <form class="contact_form" action="url" method="post">
+                        <div class ="line">
+                            <div class="icon">
+                                <img class="imguser" src="images/user.png" alt="user">
+                            </div>
+                            <input class="input inputuser inputmail" type="text" name="user" placeholder="Votre nom">
+                            <div class="icon">
+                                <img class="imguser imgmail" src="images/mail.png" alt="mail">
+                            </div>
+                            <input class="input inputmail" type="text" name="mail" placeholder="Votre email">
                         </div>
-                        <input class="input inputuser inputmail" type="text" name="user" placeholder="Votre nom">
-                        <div class="icon">
-                            <img class="imguser imgmail" src="images/mail.png" alt="mail">
+                        <div class="message">
+                            <div class="icon iconafter">
+                                <img class="imguser imgmessage" src="images/crayon.png" alt="message">
+                            </div>
+                            <textarea class="input inputmessage" name="message" placeholder="Votre message"></textarea>
                         </div>
-                        <input class="input inputmail" type="text" name="mail" placeholder="Votre email">
-                    </div>
-                    <div class="message">
-                        <div class="icon iconafter">
-                            <img class="imguser imgmessage" src="images/crayon.png" alt="message">
+                        <div>
+                            <input class="button" type="submit"  value="Envoyer" />
                         </div>
-                        <textarea class="input inputmessage" name="message" placeholder="Votre message"></textarea>
-                    </div>
-                    <div>
-                        <input class="button" type="submit"  value="Envoyer" />
-                    </div>
-                </form>
-        </div>
+                    </form>
+            </div>
+        </section>
         <a href="table.html">Table</a>
+        <footer class="down">
+            <div class="container">
+                <div class="madein">Copyright © 2015 by beneggen - www.beneggen.fr
+                </div>
+                <div class="cosialicon">
+                    <a class="pic twitter" href="https://twitter.com" title="Twitter" target="_blank"></a>
+                    <a class="pic linkedin" href="https://www.linkedin.com" title="Lincedin" target="_blank"></a>
+                    <a class="pic dribble" href="https://dribbble.com" title="dribble" target="_blank"></a>
+                    <a class="pic behance" href="https://www.behance.net" title="Behance" target="_blank"></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

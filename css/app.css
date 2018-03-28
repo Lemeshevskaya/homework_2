@@ -24,11 +24,9 @@
     float: right;
     margin-top: 78px;
 }
-.par {
+.pmenu {
     display: block;
     float: left;
-}
-.pmenu {
     color: white;
     text-decoration: none;
     font-family: "Lato bold", sans-serif;
@@ -173,16 +171,19 @@
     float: left;
     padding-top: 92px;
 }
-.cosialicon {
+.cosial_icon {
+    display: block;
+    margin-top: 72px;
     float: right;
-    padding-top: 72px;
 }
+.cosialicon {
+    float: left;
+ }
 .pic {
+    float: left;
     background: url("../images/social.png") no-repeat;
     height: 65px;
     width: 65px;
-    display: block;
-    float: left;
     margin-left: 10px;
 }
 .twitter {
